@@ -31,7 +31,6 @@
 
 .content > .post > .post-content > p {
   word-wrap: break-word;
-  word-break: break-all;
 }
 
 #ds-thread,#disqus_thread,#cloud-tie-wrapper {
