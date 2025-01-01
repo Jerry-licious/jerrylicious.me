@@ -1,0 +1,56 @@
+.sidebar.animated.fadeInDown
+  .side-content
+    .logo-title
+      .title
+        img(src= url_for('images/face@2x.png'), style="width:127px;")
+        h3(title="")
+          a(href="/")= config.title
+
+    div.links-container
+      ul.social-links
+        //- TODO：将这段代码修改为使用theme配置文件中的信息，而非手动修改
+        //- TODO: Modify this code to use the information in the theme configuration file instead of manually modifying it
+
+        if theme.obsidian
+          li
+            a(href=theme.obsidian)
+              i.fa.fa-pencil
+                span="Digital Garden"
+
+        if theme.resume
+          li
+            a(href=theme.resume)
+              i.fa.fa-file-text
+                span="CV"
+
+        if theme.linkedin
+          li
+            a(href=theme.linkedin)
+              i.fa.fa-linkedin
+              | linkedin.com/in/xxx
+
+        if theme.mail
+          li
+            a(href="emailto:" + theme.mail)
+              i.fa.fa-envelope
+               span=theme.mail_sanetised
+
+        if theme.github
+          li
+            a(href="https://github.com/" + theme.github)
+              i.fa.fa-github
+                span=theme.github
+
+        if theme.overleaf
+          li
+            a(href=theme.overleaf)
+              i.fa.fa-book
+                span="Overleaf Instance"
+
+        if theme.QQ
+          li
+            a(href= theme.QQ)
+              i.fa.fa-qq
+              | xxx
+
+  include footer
