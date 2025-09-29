@@ -1,5 +1,5 @@
 mixin make_post(item, is_detail)
-	.post.animated.fadeInDown(id=item.title)
+	.post.animated(id=item.title)
 		.post-title
 			h1
 				//- 删除了原先的条件判断，改为无论如何都只显示文章标题
