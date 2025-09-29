@@ -2,7 +2,7 @@
 title: 
 ---
 
-Hello! I am Bokuan Li, a second year Math & Computer Science student at McGill. 
+Hello! I am Bokuan Li, a final year Math & Computer Science student at McGill. 
 
 ## Writings
 
