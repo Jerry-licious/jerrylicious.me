@@ -1,5 +1,5 @@
 ---
-title: 
+title: Bokuan Li
 ---
 
 Hello! I am Bokuan Li, a final year Math & Computer Science student at McGill. 
